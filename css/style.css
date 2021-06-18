@@ -23,9 +23,6 @@ body {
 	width: 100%;
 }
 header {
-	/* padding-top: 10px; */
-	/* padding-bottom: px; */
-	/* background-color: #292a2b; */
 	padding-bottom: 7%;
 	padding-top: 1%;
 }
@@ -71,9 +68,7 @@ header h1 {
 	border: 1px solid;
 	border-radius: 20px;
 	border-color: #4f565a;
-	/* -webkit-box-shadow: 8px 8px 27px 0px rgba(237, 240, 243,  0.44); */
-	/* -moz-box-shadow: 8px 8px 27px 0px rgba(237, 240, 243, 0.44); */
-	/* box-shadow: 8px 8px 27px 0px rgba(237, 240, 243, 0.44); */
+
 	background-color: white;
 }
 .first-block .contact-form p {
@@ -83,7 +78,6 @@ header h1 {
 .first-block .contact-form h2 {
 	color: #4f565a;
 	font-size: 0.9em;
-	/* text-decoration: underline; */
 }
 .first-block .contact-form .inner {
 	padding: 2% 10% 4% 10%;
