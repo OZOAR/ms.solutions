@@ -1,11 +1,12 @@
 
 @media (min-width: 350px) and (max-width:600px){
+    
     header h1>img {
         width: 8% !important;
     }
     header h1 {
         padding-top: 2% !important;
-        font-size:  1.7em !important;
+        font-size:  1.2em !important;
     }
     .main-wrapper {
         height: 1200px !important;
