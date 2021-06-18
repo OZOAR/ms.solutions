@@ -29,8 +29,16 @@
         width: 100% !important;
     }
     .advantages {
+        padding-top: 5% !important;
         height: 1150px !important;
         padding-bottom: 10% !important; 
+    }
+    .advantages h2 {
+        font-size: 1.6em !important;
+    }
+    .advantages .card {
+        text-align: center !important;
+        /* height: 20px !important; */
     }
     /* .advantages .card {
         width: ;
@@ -48,5 +56,20 @@
     .firmware-block .toggler {
         font-size: 0.9em !important;
         text-align: center !important;
+    }
+    .firmware-block .firmware-toggler {
+        min-height: 60px !important;
+    }
+    .firmware-block .firmware-toggler .col-10 {
+        padding-top: 8px !important;
+    }
+    .firmware-block .firmware-toggler .col-8 {
+        padding-top: 4px  !important;
+    } 
+    footer img {
+        width: 15%;
+    }
+    footer .tg-text  {
+        font-size: .8em !important;
     }
 }
