@@ -38,7 +38,7 @@
     }
     .advantages .card {
         text-align: center !important;
-        /* height: 20px !important; */
+        min-height: 0px !important;
     }
     /* .advantages .card {
         width: ;

@@ -136,7 +136,7 @@ header h1 {
 	-webkit-box-shadow: 8px 8px 27px 0px rgba(237, 240, 243,  0.7	4);
 	-moz-box-shadow: 8px 8px 27px 0px rgba(237, 240, 243, 0.74);
 	box-shadow: 8px 8px 27px 0px rgba(104, 148, 192, 0.74);
-	min-height: 155px !important;
+	min-height: 155px ;
 }
 .advantages .card .inner {
 	font-size: 1.1em;
