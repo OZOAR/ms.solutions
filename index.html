@@ -16,16 +16,26 @@
         <link rel="stylesheet" type="text/css" href="css/style.css"> 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script type="text/javascript" src="js/bioep.js"></script>
+        <!-- <script type="text/javascript" src="js/bioep.js"></script> -->
         <script type="text/javascript">
             bioEp.init({
                 html: '',
                 css: ''
             });
         </script> 
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WGDXVKW');</script>
+        <!-- End Google Tag Manager -->
     </head>
     <body>
-        
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WGDXVKW"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
       <nav class="navbar navbar-expand-lg  bg-light shadow-lg fixed-top">
           <div class="container navbar-wrapper">
             <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="8%" alt=""> MiningSofware.solutions</a>
@@ -208,7 +218,6 @@
               <div class="col-10">
                 <span>Antminer S17 & S17 pro / S17e / S17+</span>
               </div>
-
               <div class="col-2">
                 <img src="img/arrow-down.svg" class="chevron" alt="">
               </div>
@@ -218,21 +227,81 @@
                 <div class="col">
                   <div class="collapse multi-collapse" id="FirmwareCollapse1">
                     <div class="card card-body">
-                      <ul>
-                        <li>
-                          <p>Pool Commission. Typically, the commission ranges from 1% to 5%.</p>            
-                        </li>
-                        <li>
-                          <p>Payment system (PPLNS, PPS, PPS+, FPPS, FPPS+ etc.)</p>
-                        </li>
-                        <li>
-                          <p>Pool capacity.</p>
-                        </li>
-                        <li>
-                          <p>Pool response speed (ping) - you need to check it by pinging the pool. It is good if ping is less than 100 ms.</p>
-                        </li>
-                        <p>There are multipools also. They produce any coins that are currently the most profitable on the chosen algorithm. Switching is most often automatic. Also coins can be automatically converted into one selected on many pools.</p>
-                      </ul>
+                      <div class="row firmware-documentation">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                          <p>
+                            <b>1.</b> Mining Optimization: Energy efficiency S17 up to 25W \ 1TH, automatic chip tuning: by boards, by chips and by profile!
+                          </p>
+                          <p>
+                            <b>2.</b> Virus protection: a new web service with threat protection - continuous monitoring and updating of signatures online. The developed service provides reliable protection against existing threats, and the update database allows you to maintain always the protection updated.
+                          </p>
+                          <p>
+                            <b>3.</b> Boost up and downvolt ASIC: with frequency, voltage and profile templates for boost up on each Hash board (S17 up to 79 + TH in air and up to 86ТH in immersion bathtubs, T17 up to 60TH, (Boost up requires cooling conditions as a must) Setting the “immersive” parameter will automatically add the corresponding items for immersion bathtubs to the profile selection menu
+                          </p>
+                          <ul>
+                            <li>
+                              <p>
+                                S17 (air mode)
+                              </p>
+                            </li>
+                            <li>
+                              <p>
+                                S17 (immersive mode)
+                              </p>
+                            </li>
+                            <li>
+                              <p>
+                                T17 (air mode)
+                              </p>
+                            </li>
+                            <li>
+                              <p>
+                               S17 (immersive enabled)
+                              </p>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                          <p>
+                            <b>4.</b> Updated control interface with built-in power meter and counter!
+                            As well: LED alarm for technical problems; LED intermittent mode for quick miner search on the farm; Mining stop; Device restart.                          </p>
+                          <p>
+                            <b>5.</b> New affiliate program: We invite you to cooperate with large farms, data centers, mining hotels and large miners. Add your Fee to the firmware, get extra income - with our firmware it is easier than ever!<br><br>
+                            The new configuration interface is simple and convenient:
+                            <br><br>
+                            - separate page with the parameters you need;<br>
+                            - convenience of choosing commission size;<br>
+                            - quick save.
+                            </p>
+                          <p>
+                            <b>6.</b> Dev Fee - rewarding the developer with less than 3% of the total hashrate, in parallel, without interrupting the main mining.
+                          </p>
+                          <p>
+                            <b>7.</b> Add your rate of interest fee - Redirect asic speed rate of interest, for hotels, the managing, charge part of the payment as rate of mining.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <p><b>ATTENTION : BEFORE INSTALLING THE FIRMWARE YOU MUST UNLOCK SSH (use file unlock ssh) !!!</b>
+                          <br><br>
+                          Unlock SSH is working will all types of the Bitmain firmware except December 2019
+                          <br><br>
+                          If you have Bitmain firmware December 2019 or above you must use SD CARD (you can find it on our web page). After you can flash the asic by MSKminer firmware without unlock. You can check the firmware version in the System - file system version</p>
+                      </div>
+                      <div class="row ">
+                        <div class="col-lg-6 col-md-6 col-sm-12 firmware-files">
+                          <div class="download-link">
+                            <img src="img/download.svg" alt=""> <a href="https://mega.nz/file/ktRlxShS#sAlerJBHvVBjRzXL7W0k87wiBxJLuFUw2N4C8M7eTIY" target="__blank">Antminer S17+</a>
+                          </div>
+                          <div class="download-link">
+                            <img src="img/download.svg" alt=""> <a href="https://mega.nz/file/s5ZH3KaA#DeFhmnJzfgQkzsCvYIp8HD1T0rTbmp8fNzT96Ud7ceo" target="__blank">Antminer S17E</a>
+                          </div>
+                          <div class="download-link">
+                            <img src="img/download.svg" alt=""> <a href="https://mega.nz/file/VxpiDRYI#MHCdL2W2tn2Rc2MX4BAzrkhdLPzXQz7Dcn7WiBYBrpA" target="__blank">Antminer S17-S17PRO</a>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 device-img "><img src="img/devices/s17.png" alt=""></div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -242,7 +311,7 @@
               <a class="toggler"  data-bs-toggle="collapse" href="#FirmwareCollapse2" role="button" aria-expanded="false" aria-controls="FirmwareCollapse2">
               <div class="row">
               <div class="col-10">
-                <span>Antminer S17 & S17 pro / S17e / S17+</span>
+                <span>Antminer S9 i/j</span>
               </div>
               <div class="col-2">
                 <img src="img/arrow-down.svg" class="chevron" alt="">
@@ -253,21 +322,97 @@
                 <div class="col">
                   <div class="collapse multi-collapse" id="FirmwareCollapse2">
                     <div class="card card-body">
-                      <ul>
-                        <li>
-                          <p>Pool Commission. Typically, the commission ranges from 1% to 5%.</p>            
-                        </li>
-                        <li>
-                          <p>Payment system (PPLNS, PPS, PPS+, FPPS, FPPS+ etc.)</p>
-                        </li>
-                        <li>
-                          <p>Pool capacity.</p>
-                        </li>
-                        <li>
-                          <p>Pool response speed (ping) - you need to check it by pinging the pool. It is good if ping is less than 100 ms.</p>
-                        </li>
-                        <p>There are multipools also. They produce any coins that are currently the most profitable on the chosen algorithm. Switching is most often automatic. Also coins can be automatically converted into one selected on many pools.</p>
-                      </ul>
+                      <div class="row firmware-documentation">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                          <p>
+                            <b>Alternative firmware for Antminer S9, S9i, S9j</b> Firmware from mskminer.com is available for free download, but it has a development fee of 1.3% -2% (mining is not interrupted, the development fee works in parallel with the main mining). Firmware from Mskminer allows (at the same expense as the standard firmware from Bitmain) to get more computing power and extend the life of AntMiner by 5 times by setting each chip separately.
+                            <br><br>
+                            The design is made as close as possible to the original for more convenient use.
+                            <br><br>
+                            Firmware mskminer.com for S9 / S9i / S9j with frequency, voltage and acceleration patterns of each hash panel to 18+ TH in air and 19-22TH in immersion cooling. (Be careful, overclocking requires a more powerful power source. You can use 2 standard power supplies or 3 standard power supplies (1600 W) for 2 Antminers - you should not connect one hashboard to two different power sources !:</p>
+                          <p>
+                            <b>New developments:</b> The ssh vulnerability fix (dropbear)
+                            <br><br>
+                            S9 ssh is off by default! The default password for www and ssh has been changed to root@ - this is to prevent viruses from entering and this firmware can be used immediately in an infected network without fear of being instantly infected by neighboring hosts.
+                            <br><br>
+                            Refinement of the chip commit algorithm
+                            <br><br>
+                            We have implemented a fundamentally new chip start algorithm that allows us to achieve higher energy efficiency, and as a result - profitability.
+                            <br><br>
+                            The new algorithm of automatic operation of fans (adjustable) at which chips work better and reduced noise, adjustable chip temperature.
+                            <br><br>
+                            The algorithm of tuning of boards and chips is redesigned.
+                            <br><br>
+                            Security settings and antivirus.
+                          </p>
+                          <ul>
+                            <li>
+                              <p>
+                                virus detection and removal.
+                              </p>
+                            </li>
+                            <li>
+                              <p>
+                                Protection against virus substitution of pools.
+                              </p>
+                            </li>
+                            <li>
+                              <p>
+                                Ability to change SSH port. (Anti-virus resistance).
+                              </p>
+                            </li>
+                            <li>
+                              <p>
+                                Warning if the API port is open to the entire network for recording (which can be used by attackers) and the ability to control access to it.
+                              </p>
+                            </li>
+                            <li>
+                              <p>
+                                Backup firmware function. (if the main one was damaged by a virus).
+                              </p>
+                            </li>
+                            <li>
+                              <p>
+                                It is recommended to change the SSH port.
+                              </p>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                          <p>
+                            <b>Monitoring</b>
+                            Added output to Watchdog log (option showing time and cause of asyk restart).
+                            <br><br>
+                            Added time to the atotun runtime log.
+                            <br><br>
+                            Function of visual monitoring.
+                            <br><br>
+                            The option of the location of the asyk on the farm.
+                            <br><br>
+                            An option that enables the green LED to blink quickly in case of failure of one or more chips on the board.
+                            <br><br>
+                            Option that turns on blinking red LED blink rapidly in case the fan speed sensor fails (signal to replace it)
+                            <br><br>
+                            Closing vulnerabilities found in Bitmain firmware.
+                            <br><br>
+                            Loyalty program (to be added soon)
+                            <br><br>
+                            Redesigned devfee algorithm - became more profitable for the user, not exceeding 2% even on loss pools.
+                            <br><br>
+                            Standby mode when the Internet is turned off. (doesn't consume power in an empty mode as it happens on standard and other firmware).
+                            <br><br>
+                            Added setting of Vacdog time to fix the red chips after the tuna... Every 30 minutes... 1 hour 2 hours 3 hours.
+                            <br><br>
+                            Automatic shutdown function for broken boards with low hash rate or no hash rate at all to save electricity and heating costs.
+                            <br><br>
+                            S9 manual disconnection of any board.                          
+                            <p>
+                        </div>
+                      </div>
+                      <div class="row firmware-files">
+                        <div class="col-lg-6 col-md-6 col-sm-12"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-12"></div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -324,21 +469,100 @@
                 <div class="col">
                   <div class="collapse multi-collapse" id="FirmwareCollapse4">
                     <div class="card card-body">
-                      <ul>
-                        <li>
-                          <p>Pool Commission. Typically, the commission ranges from 1% to 5%.</p>            
-                        </li>
-                        <li>
-                          <p>Payment system (PPLNS, PPS, PPS+, FPPS, FPPS+ etc.)</p>
-                        </li>
-                        <li>
-                          <p>Pool capacity.</p>
-                        </li>
-                        <li>
-                          <p>Pool response speed (ping) - you need to check it by pinging the pool. It is good if ping is less than 100 ms.</p>
-                        </li>
-                        <p>There are multipools also. They produce any coins that are currently the most profitable on the chosen algorithm. Switching is most often automatic. Also coins can be automatically converted into one selected on many pools.</p>
-                      </ul>
+                      <div class="row firmware-documentation">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                          <p>
+                            <b>Free custom firmware allows you to fully unlock all the features of your miner!</b> <br><br>
+                            Development fee is no more than ~ 1.8% of the total hashing speed. And for large farms there are special conditions.                          </p>
+                          <p>
+                            <b>Update, v5pro rc1 changelog:</b>
+                          </p>
+                          <p>
+                            <b>1.</b> Fixed ssh (dropbear) vulnerability.
+                          </p>
+                          <p>
+                            <b>2.</b> Refinement of the chip locking algorithm
+                          </p>
+                          <p>
+                            <b>3.</b> We have implemented a fundamentally new chip start algorithm that allows us to achieve higher energy efficiency and profitability.
+                            <br><br>
+                            New algorithm of automatic operation of fans (customizable), in which the chips work better and reduced noise, adjustable temperature chips.
+                            <br><br>
+                            Tuning algorithm of boards and chips is redesigned.
+                          </p>
+                          <p>
+                            <b>4.</b>  Security settings and antivirus.
+                          </p>
+                          <ul>
+                            <li>
+                              <p>
+                                Detection of a virus and its removal.
+                              </p>
+                            </li>
+                            <li>
+                              <p>
+                                Made protection against virus substitution of pools.
+                              </p>
+                            </li>
+                            <li>
+                              <p>
+                                Ability to change the SSH port. (anti-virus protection).
+                              </p>
+                            </li>
+                            <li>
+                              <p>
+                                Warning if the API port is open to the entire network for recording (which can be used by attackers) and the ability to control access to it.
+                              </p>
+                            </li>
+                            <li>
+                              <p>
+                                Backup firmware feature. (if the main one was damaged by a virus).
+                              </p>
+                            </li>
+                            <li>
+                              <p>
+                                It is recommended to change the SSH port.
+                              </p>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                          <p>
+                            <b>5.</b> Monitoring .
+                            <br><br>
+                            Added output to Watchdog log (option showing time and cause of asyk restart).
+                            <br><br>
+                            Added time to the atotun runtime log.</p>
+                          <p>
+                            <b>6.</b> The function of visual monitoring.
+                            <br><br>
+                            The option of the location of the asyk on the farm.
+                            <br><br>
+                            Option which includes an accelerated blink of the green LED in case of failure of one or more chips on the board.
+                            <br><br>
+                            Option that turns on blinking red LED blink rapidly in case the fan speed sensor fails (signal to replace it)
+                            </p>
+                          <p>
+                            <b>7.</b> Closing vulnerabilities found in bitmain firmware.
+                          </p>
+                          <p>
+                            <b>8.</b>Loyalty program (to be added soon)
+                          </p>
+                          <p>
+                            <b>9.</b> Redesigned devfee algorithm - became more profitable for the user, not exceeding 2% even on loss pools.
+                          </p>
+                          <p>
+                            <b>10.</b>  Standby mode when the Internet is turned off. (does not consume power in an empty mode as it happens on standard and other firmware).
+                          </p>
+                          <p>
+                            <b>11.</b> Added setting of Vacdog time to fix the red chips after the tuna... Every 30 minutes... 1 hour, 2 hours, 3 hours.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row firmware-files">
+                        <div class="col-lg-6 col-md-6 col-sm-12"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-12"></div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -359,21 +583,53 @@
                 <div class="col">
                   <div class="collapse multi-collapse" id="FirmwareCollapse5">
                     <div class="card card-body">
-                      <ul>
-                        <li>
-                          <p>Pool Commission. Typically, the commission ranges from 1% to 5%.</p>            
-                        </li>
-                        <li>
-                          <p>Payment system (PPLNS, PPS, PPS+, FPPS, FPPS+ etc.)</p>
-                        </li>
-                        <li>
-                          <p>Pool capacity.</p>
-                        </li>
-                        <li>
-                          <p>Pool response speed (ping) - you need to check it by pinging the pool. It is good if ping is less than 100 ms.</p>
-                        </li>
-                        <p>There are multipools also. They produce any coins that are currently the most profitable on the chosen algorithm. Switching is most often automatic. Also coins can be automatically converted into one selected on many pools.</p>
-                      </ul>
+                      <div class="row firmware-documentation">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                          <p>
+                            Free custom firmware will allow you to fully reveal all the features of your miner!
+                            <br><br>
+                            The development board is no more than ~ 1.8% of the total hash rate. And for large farms, there are special conditions.
+                            <br><br>
+                            <b>L3 + / ++ v020</b>
+                            <br><br>
+                            WebUi and ssh vulnerabilities are fixed.
+                            <br><br>
+                            Automatically removes the virus. It can be used to treat infected devices.
+                            <br><br>
+                            It is recommended to change the default password after firmware changed.
+                            <br><br>
+                            <b>Up to 40% energy efficiency (L3 + 1.2 W / 1 Mh)</b>
+                            <br><br>
+                            <b>650W 520MH ..... 1050W 650MH</b>
+                          </p>
+                         
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                          <p>
+                            Automatic settings by consumption or performance profile;
+                            <br><br>
+                            The choice of voltage and frequency for the payload automatically and manually;
+                            <br><br>
+                            Tuning frequencies individually with chips, the ability to run faulty boards;
+                            <br><br>
+                            Wattmeter built-in web interface, accessible via API;
+                            <br><br>
+                            Frequency up to 650 MHz, above 500 MHz only for immersion cooling;
+                            <br><br>
+                            Fan control, disabling fan control for immersion immersion cooling - there is no longer a need for a cooler emulator;
+                            <br><br>
+                            Protective timer for temperature, chip loss, hash rate;
+                            <br><br>
+                            Parallel development of paid mining, without stops and suspension of main mining;
+                            <br><br>
+                            Compatible with all management and control systems, API;              
+                            <p>
+                        </div>
+                      </div>
+                      <div class="row firmware-files">
+                        <div class="col-lg-6 col-md-6 col-sm-12"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-12"></div>
+                      </div>
                     </div>
                   </div>
                 </div>
