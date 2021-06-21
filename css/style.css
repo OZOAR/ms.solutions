@@ -20,7 +20,7 @@
 .navbar-nav a {
 	text-decoration: none;
 }
-.navbar-nav a {
+.navbar-nav .nav-link {
 	background: 
 	linear-gradient(to right, #1b3046, #1b3046),
 	linear-gradient(to right, rgb(255, 153, 0), rgb(238, 255, 0), rgba(0, 100, 200, 1));
@@ -35,7 +35,20 @@
 	background-size: 0 0.1em, 100% 0.1em;
 	color: #ffffff;
 }
-   
+.navbar .language-btn {
+	background-color: #1b3046;
+	border: none;
+	width: 40px;
+	padding-top: 10px;
+	color: #ffffff;
+	margin-left: 10px;
+}
+.navbar .dropdown-menu a {
+	text-decoration: none;
+}
+.navbar .dropdown-menu img{
+	width: 35px;
+}
 h2 {
     padding-top: 20px;
 }
@@ -92,7 +105,8 @@ header h1 {
 .main-wrapper {
 	background-image: url("../img/main-pic.jpg");
 	background-size: 100%;
-	height: 90%;
+	height: 100%;
+	/* padding-bottom: 5%; */
 }
 .content-wrapper{
 	height: 100%;
@@ -146,8 +160,36 @@ header h1 {
 	border: 1px solid #bdc0c2;
 	height: 35px;
 }
-.first-block .contact-form input::placeholder {
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: #3390db;
+  outline: 0 none;
+}
+.first-block .contact-form input[type="text"]{ 
 	padding-left: 10px;
+}
+.first-block .contact-form input:focus {
+	border: 1px solid #3390db !important;
+}
+.first-block .contact-form input:active {
+	border:  1px solid #3390db !important;
+}
+.first-block .contact-form input::placeholder {
+	padding-left: 5px;
 }
 .first-block .contact-form .input-holder {
 	padding-bottom: 25px;
@@ -297,12 +339,10 @@ footer a {
 	border: none !important;
 	padding-left: 5%;
 }
-.device-img img{
+.firmware-toggler .device-img img{
 	width: 40%;
-
+	float: right;
 }
-
-
 ul {
 	margin: 0;
 	padding-left: 0;

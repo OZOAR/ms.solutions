@@ -36,7 +36,7 @@
     }
     .advantages {
         padding-top: 5% !important;
-        height: 1100px !important;
+        height: 1050px !important;
         padding-bottom: 10% !important; 
     }
     .advantages h2 {
@@ -76,6 +76,9 @@
     .firmware-block .firmware-toggler .col-8 {
         padding-top: 4px  !important;
     } 
+    .firmware-toggler .device-img img{
+       display: none;
+    }
     footer img {
         width: 15%;
     }
