@@ -1,6 +1,11 @@
 
 @media (min-width: 350px) and (max-width:600px){
-    
+    .navbar-brand {
+        font-size: 1.4em !important;
+    }   
+    .navbar-brand img {
+        width: 20% !important;
+    }
     header h1>img {
         width: 8% !important;
     }
@@ -9,6 +14,7 @@
         font-size:  1.2em !important;
     }
     .main-wrapper {
+        padding-top: 5% !important;
         height: 1100px !important;
     }
     .first-block .main-text h2 {
@@ -30,7 +36,7 @@
     }
     .advantages {
         padding-top: 5% !important;
-        height: 1150px !important;
+        height: 1100px !important;
         padding-bottom: 10% !important; 
     }
     .advantages h2 {
@@ -40,11 +46,15 @@
         text-align: center !important;
         min-height: 0px !important;
     }
-    /* .advantages .card {
-        width: ;
-    } */
+    .advantages img {
+        display: none !important;
+    }
     .advantages p {
         font-size: 0.9em !important;
+    }
+    #firmware h2 {
+        font-size: 1.6em !important;
+        padding-bottom: 5% !important;
     }
     .firmware-block {
         padding-left: 5% !important;
