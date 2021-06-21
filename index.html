@@ -1,3 +1,4 @@
+
 <html>
     <head> 
         <meta charset="utf-8"> 
@@ -30,7 +31,8 @@
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-WGDXVKW');</script>
         <!-- End Google Tag Manager -->
-    </head>
+       
+      </head>
     <body>
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WGDXVKW"
@@ -99,19 +101,19 @@
                       <h2>Contact us</h2>
                       <p class="text-center">Leave us a request to get a private firmware</p>
                     </div>
-                    <form  action="">
+                    <form  action="mailto:info@interhash.by" method="POST" enctype="multipart/form-data" name="EmailForm">
                     <div class="input-holder">
-                      <input class="shadow-sm" type="text" placeholder="Your name">
+                      <input class="shadow-sm" type="text" size="30" name="name" placeholder="Your name">
                     </div>
                     <div class="input-holder">
-                      <input class="shadow-sm"  type="text" placeholder="Email*">
+                      <input class="shadow-sm" type="text" size="40" name="email" required placeholder="Email*">
                     </div>
                     <div class="input-holder">
-                      <input class="shadow-sm"  type="text" placeholder="Telegram / Whatsapp">
+                      <input class="shadow-sm" type="text" size="30" name="telegram-whatsapp" placeholder="Telegram / Whatsapp">
                     </div>
                     <small>By clicking "Leave a request" you agree to the rules for the processing of personal data.</small>
                     <div class="text-center">
-                      <button class="text-right"> Send me firmware </button>
+                      <button class="text-right" type="submit" value="submit"> Send me firmware </button>
                     </div>
                   </form>
                   </div>
@@ -747,5 +749,6 @@ var currentTab = (function () {
 }());
 
         </script>
+
       </body>
 </html>
