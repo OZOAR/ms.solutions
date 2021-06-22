@@ -1,22 +1,29 @@
 @font-face {
     font-family: Roboto-Light; /* Имя шрифта */
-    src: url(../fonts/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
-   }
-	a, p,span  {
-    font-family: Roboto-Light;
-   }
+    src: url('../fonts/Roboto-Light.ttf'); /* Путь к файлу со шрифтом */
+    font-weight: lighter;
+    font-style: normal;
+    font-display: swap;   
+}
+	
 @font-face {
-    font-family: Roboto-Regular; /* Имя шрифта */
-    src: url(../fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
-   }
-	h1,h2,h3,h4  {
-    font-family: Roboto-Regular;
-   }
+    font-family: Roboto-Regular; 
+    src: url('../fonts/Roboto-Regular.ttf'); 
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;   
+}
+	
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
 
 /* Reset */
-
+h1,h2,h3,h4  {
+    font-family: Roboto-Regular;
+}
+a, p,span  {
+    font-family: Roboto-Light;
+}
 .navbar-nav a {
 	text-decoration: none;
 }
