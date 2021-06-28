@@ -1,0 +1,12 @@
+User-agent: Yandex
+Disallow: /err404.php
+Host: http://miningsoftware.solutions/
+
+User-agent: Googlebot
+Disallow: /err404.php
+
+User-agent: *
+Clean-param: parm1&parm2&parm3 /
+Disallow: /err404.php
+Disallow: /*.php$
+Sitemap: http://miningsoftware.solutions/sitemap.xml
